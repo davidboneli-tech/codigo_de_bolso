@@ -1,5 +1,13 @@
 # Histórico de alterações
 
+## 0.6.1 — revisão didática
+
+- Corrigido excesso de fragmentação e de explicações automáticas após avaliação de David.
+- Refeita ficha int/float/str; revistos conceitos de SQL, modelagem e exemplos de bibliotecas.
+- Código agrupado por tarefa, detalhes opcionais e Base de Dados sem dependência obrigatória.
+- 380 fichas e 815 exemplos; 8 exemplos novos executados e 1.109 verificações de interface.
+- Mantidas assinatura, IDs, áreas e preferências.
+
 ## 0.6.0 — 2026-09-20
 
 - Documentada a ampliação para 380 fichas, 28 categorias e 810 exemplos.
