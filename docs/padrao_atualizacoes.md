@@ -25,3 +25,7 @@ Usar português claro, nomes de arquivos em snake_case e links relativos. Docume
 - Testar busca com linguagem natural, sinônimos, acentos, nomes de comandos e filtros.
 - Preservar assinatura, pacote, IDs e dados pessoais; não gerar nova chave automaticamente.
 - Distinguir execução real de exemplos, revisão técnica, teste de navegador e instalação no Android.
+
+## Padrão aprovado após uso da 0.6.0
+
+Não usar metas de palavras ou caracteres. A ficha int/float/str aprovada por David orienta a clareza: explicação suficiente, exemplo independente, código agrupado por tarefa e resultado separado. Não separar cada linha em um bloco, não repetir parágrafos genéricos e não exigir consulta à Base de Dados. Manter aprofundamento técnico opcional. Confirmar entendimento pelo uso, além dos testes de funcionamento.
