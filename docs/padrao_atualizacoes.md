@@ -16,3 +16,12 @@
 ## Escrita
 
 Usar português claro, nomes de arquivos em snake_case e links relativos. Documentar problema, decisão, resultado e limites da validação. Identificar assistência de IA de forma transparente.
+
+## Critérios didáticos e regressão
+
+- Usar o Guia Mestre reservado como referência central, evitando orientações concorrentes.
+- Separar código, explicação e saída; permitir cópia do trecho e do exemplo completo.
+- Usar pequenos trechos da base fictícia e registrar decisões de limpeza.
+- Testar busca com linguagem natural, sinônimos, acentos, nomes de comandos e filtros.
+- Preservar assinatura, pacote, IDs e dados pessoais; não gerar nova chave automaticamente.
+- Distinguir execução real de exemplos, revisão técnica, teste de navegador e instalação no Android.
