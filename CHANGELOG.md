@@ -1,4 +1,14 @@
-# Histórico do portfólio
+# Histórico de alterações
+
+## 0.6.0 — 2026-09-20
+
+- Documentada a ampliação para 380 fichas, 28 categorias e 810 exemplos.
+- Acrescentados SQL/PostgreSQL, modelagem, NoSQL/MongoDB, BeautifulSoup e gráficos Matplotlib/Seaborn.
+- Organizadas as áreas em sublistas; incluídos glossário filtrável e base fictícia original/tratada.
+- Revisadas busca e apresentação didática em blocos com cópia por etapa.
+- Registrados testes, compilação, preservação dos IDs e limites da validação no aparelho.
+- Mantida a publicação restrita a portfólio e documentação.
+
 
 ## 2026-09-13 — Apresentação inicial
 
