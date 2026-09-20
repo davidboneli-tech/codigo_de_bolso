@@ -8,7 +8,7 @@
 
 Uma biblioteca de consulta pessoal para acompanhar os estudos de programação e análise de dados.
 
-**380 fichas · 28 categorias · Versão 0.6.0**
+**380 fichas · 28 categorias · Versão 0.6.1**
 
 </div>
 
@@ -54,7 +54,7 @@ A versão documentada reúne **380 fichas em 28 categorias**, agrupadas aqui por
 | 📗 Excel | Fórmulas, buscas, condições, textos, datas, estatística e Power tools |
 | 🛠️ Ferramentas | Git, GitHub e VS Code |
 
-A coleção inclui 810 exemplos, código dividido em etapas e 22 imagens de gráficos para consulta offline. As áreas possuem sublistas para manter a navegação compacta. Power BI permanece como possibilidade de expansão.
+A coleção inclui 815 exemplos, código agrupado por tarefa e 22 imagens de gráficos para consulta offline. As áreas possuem sublistas para manter a navegação compacta. Power BI permanece como possibilidade de expansão.
 
 ## 📖 Como ele entra na rotina
 
@@ -83,9 +83,9 @@ O aplicativo usa um processo de compilação próprio com JDK 17 e Android SDK 3
 
 ## ✅ Estado do projeto
 
-**Versão documentada: 0.6.0.** O manifesto define Android 8.0 como versão mínima. A compatibilidade precisa ser verificada no aparelho; não há declaração de testes em todos os modelos Android.
+**Versão documentada: 0.6.1.** O manifesto define Android 8.0 como versão mínima. A compatibilidade precisa ser verificada no aparelho; não há declaração de testes em todos os modelos Android.
 
-Nesta edição, foram executados 524 exemplos Python, 28 exemplos SQL em PostgreSQL via PGlite e 1.105 verificações automatizadas de interface. O APK foi compilado e teve sua assinatura verificada. A instalação no aparelho ainda precisa ser conferida. Veja [escopo e limites dos testes](docs/escopo_e_validacao.md).
+A revisão 0.6.1 simplificou as explicações e reuniu linhas de uma mesma tarefa. Foram executados 8 exemplos novos e 1.109 verificações de interface; a lógica e as saídas dos outros 807 exemplos foram preservadas. O APK foi compilado e teve a assinatura verificada. David confirmou o funcionamento da 0.6.0 no aparelho; a instalação da 0.6.1 ainda precisa ser conferida. Veja [escopo e limites dos testes](docs/escopo_e_validacao.md).
 
 ## 🤝 Concepção e desenvolvimento
 
