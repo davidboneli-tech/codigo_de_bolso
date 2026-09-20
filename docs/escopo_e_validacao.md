@@ -1,3 +1,13 @@
+## Revisão 0.6.1 — clareza após uso real
+
+David confirmou o funcionamento da 0.6.0 no aparelho, mas relatou explicações confusas e excesso de blocos. A revisão remove 311 parágrafos automáticos repetidos, mantém exemplos curtos em um bloco completo e deixa detalhes técnicos recolhidos. A Base de Dados é opcional. Não há meta de palavras ou caracteres: a explicação deve ter o tamanho necessário para ser entendida.
+
+A ficha int/float/str foi refeita conforme o modelo aprovado; também foram revistas explicações de SQL, modelagem, BeautifulSoup e exemplos de Pandas/NumPy. São 380 fichas e 815 exemplos. Foram executados 8 exemplos novos, preservada a semântica e as saídas de 807 exemplos e concluídas 1.109 verificações de interface, incluindo migração do conteúdo 0.6.0. O APK 0.6.1 foi compilado e sua assinatura v2/v3 verificada. A instalação física desta revisão está pendente. Os testes da edição anterior são históricos, não uma nova execução nesta revisão.
+
+---
+
+## Histórico da validação anterior
+
 # Versão 0.6.0 — escopo e validação
 
 Atualização de 20/09/2026, baseada no projeto reservado 0.5.0.
