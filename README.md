@@ -8,7 +8,7 @@
 
 Uma biblioteca de consulta pessoal para acompanhar os estudos de programação e análise de dados.
 
-**311 fichas · 22 categorias · Versão 0.5.0**
+**380 fichas · 28 categorias · Versão 0.6.0**
 
 </div>
 
@@ -28,7 +28,7 @@ Também queria uma interface agradável, com ícones, cores e assuntos fáceis d
 
 | Recurso | Como ajuda nos estudos |
 |---|---|
-| 🔎 Busca local | Encontra fichas do acervo sem depender de uma conexão |
+| 🔎 Busca local | Pesquisa comandos, explicações e exemplos, com sinônimos, tolerância a erros de digitação e opção de buscar em toda a coleção |
 | 🗂️ Categorias | Organiza o conteúdo para explorar um assunto por vez |
 | ⭐ Favoritos | Mantém os assuntos mais úteis por perto |
 | 🕘 Consultas recentes | Facilita retomar uma ficha já visitada |
@@ -40,19 +40,21 @@ A busca consulta o conteúdo disponível no aplicativo. Ela não é um chatbot e
 
 ## 🧠 O que posso consultar?
 
-A versão documentada reúne **311 fichas em 22 categorias**, agrupadas aqui por área:
+A versão documentada reúne **380 fichas em 28 categorias**, agrupadas aqui por área:
 
 | Área | Assuntos presentes |
 |---|---|
 | 🐍 Fundamentos de Python | Tipos, textos, funções, erros, arquivos, classes e objetos |
 | 📦 Coleções | Listas, tuplas, dicionários, sets e frozenset |
 | 🧹 Tratamento de dados | Limpeza de textos, expressões regulares e roteiros de transformação |
-| 📊 Análise com Python | Pandas e NumPy |
-| 🌐 Coleta de informações | Web scraping |
+| 📊 Análise com Python | Pandas, NumPy, Matplotlib e Seaborn |
+| 🌐 Coleta de informações | Web scraping e BeautifulSoup |
+| 🗄️ Banco de Dados | SQL/PostgreSQL, modelagem, NoSQL e MongoDB |
+| 📖 Consulta | Glossário com filtro próprio e base fictícia original/tratada |
 | 📗 Excel | Fórmulas, buscas, condições, textos, datas, estatística e Power tools |
 | 🛠️ Ferramentas | Git, GitHub e VS Code |
 
-A relação descreve a base atual; cada área pode ganhar novas fichas e revisões. SQL e Power BI como módulos próprios fazem parte das possibilidades de expansão, não dessa relação de módulos entregues.
+A coleção inclui 810 exemplos, código dividido em etapas e 22 imagens de gráficos para consulta offline. As áreas possuem sublistas para manter a navegação compacta. Power BI permanece como possibilidade de expansão.
 
 ## 📖 Como ele entra na rotina
 
@@ -81,9 +83,9 @@ O aplicativo usa um processo de compilação próprio com JDK 17 e Android SDK 3
 
 ## ✅ Estado do projeto
 
-**Versão documentada: 0.5.0.** O manifesto define Android 8.0 como versão mínima. A compatibilidade precisa ser verificada no aparelho; não há declaração de testes em todos os modelos Android.
+**Versão documentada: 0.6.0.** O manifesto define Android 8.0 como versão mínima. A compatibilidade precisa ser verificada no aparelho; não há declaração de testes em todos os modelos Android.
 
-O projeto reservado contém scripts de verificação editorial e testes de interface. A preparação deste README não incluiu uma nova execução desses testes.
+Nesta edição, foram executados 524 exemplos Python, 28 exemplos SQL em PostgreSQL via PGlite e 1.105 verificações automatizadas de interface. O APK foi compilado e teve sua assinatura verificada. A instalação no aparelho ainda precisa ser conferida. Veja [escopo e limites dos testes](docs/escopo_e_validacao.md).
 
 ## 🤝 Concepção e desenvolvimento
 
