@@ -1,3 +1,11 @@
+# Revisão 0.6.4 — imagens e ícones
+
+A versão 0.6.4 acrescenta 100 ilustrações, totalizando 175 fichas ilustradas, e integra 15 ícones de áreas/programas e quatro ícones de leitura. Foram concluídas 1.873 verificações de interface em Chromium e verificada a assinatura v2/v3 do APK com a chave original. A migração da 0.6.3 preserva favoritos e preferências. Imagens otimizadas em WebP mantêm a consulta offline e a compatibilidade com coleções anteriores. A instalação da 0.6.4 no aparelho ainda precisa ser conferida.
+
+Os 815 exemplos não foram alterados nem reexecutados nesta revisão visual. Os testes verificaram as 380 fichas, 175 ilustrações, 19 ícones, legibilidade em tela pequena, cópia, compartilhamento, busca, filtros, importação, restauração e migração. Não houve requisições externas durante os testes. A conferência em Chromium não substitui o Android WebView no aparelho real.
+
+---
+
 ## Revisão 0.6.1 — clareza após uso real
 
 David confirmou o funcionamento da 0.6.0 no aparelho, mas relatou explicações confusas e excesso de blocos. A revisão remove 311 parágrafos automáticos repetidos, mantém exemplos curtos em um bloco completo e deixa detalhes técnicos recolhidos. A Base de Dados é opcional. Não há meta de palavras ou caracteres: a explicação deve ter o tamanho necessário para ser entendida.
