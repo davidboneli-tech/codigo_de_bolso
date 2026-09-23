@@ -1,5 +1,17 @@
 # Histórico de alterações
 
+## 0.6.4 — 2026-09-23
+
+- Acrescentadas 100 ilustrações no padrão 3D aprovado: total de 175 fichas ilustradas.
+- Integrados 15 ícones de áreas/programas e quatro de leitura, sem novas abas.
+- Ícones de leitura proporcionais ao texto, com transparência e rótulos nativos preservados.
+- Revisadas todas as novas cenas e corrigidas cinco imagens antes da integração.
+- Ilustrações convertidas para WebP; originais PNG preservados separadamente. Compatibilidade com referências PNG de coleções anteriores.
+- Mantidos 380 IDs, 815 exemplos e as legendas das 75 cenas anteriores.
+- 1.873 verificações de interface em Chromium, incluindo migração da 0.6.3, decodificação de imagens, busca, cópia, tema e ícones.
+- APK compilado com chave original, versionCode 10 e assinatura v2/v3 verificada. Instalação física pendente.
+- Guia Mestre 1.6 e pacotes reservados de código, imagens e ícones atualizados; apenas documentação no GitHub público.
+
 ## 0.6.3 — 2026-09-23
 
 - Adicionadas 20 ilustrações 3D a fichas sem imagem; total de 75.
