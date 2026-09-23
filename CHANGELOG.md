@@ -1,5 +1,15 @@
 # Histórico de alterações
 
+## 0.6.2 — 2026-09-23
+
+- 55 ilustrações 3D em fichas selecionadas: 25 iniciais e 30 adicionais após aprovação do estilo.
+- Cenas diretas com objetos, dados, seleções e transformações; analogias com etapas quando ajudam a explicar.
+- Figuras offline com legenda própria e texto alternativo, identificadas como exemplos visuais independentes.
+- Comandos em negrito nas explicações; código copiável preservado.
+- Mantidos 380 IDs e 815 exemplos. 1.226 verificações automatizadas de interface em Chromium, incluindo carregamento das 55 figuras.
+- APK compilado; assinatura v2/v3 verificada. Instalação física desta versão ainda pendente.
+- Mantida exigência de aprovar uma amostra antes de mudanças de padrão em massa.
+
 ## 0.6.1 — revisão didática
 
 - Corrigido excesso de fragmentação e de explicações automáticas após avaliação de David.
