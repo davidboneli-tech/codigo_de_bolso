@@ -1,5 +1,15 @@
 # Histórico de alterações
 
+## 0.6.3 — 2026-09-23
+
+- Adicionadas 20 ilustrações 3D a fichas sem imagem; total de 75.
+- Cobertura ampliada em Pandas, Python, SQL, MongoDB, BeautifulSoup, Excel, Git e ambientes virtuais.
+- Revisão visual, legendas próprias e recursos offline no mesmo padrão aprovado.
+- Preservados 380 IDs, 815 exemplos e as 55 ilustrações anteriores.
+- 1.270 verificações de interface; migração da 0.6.2 preservando preferências e favoritos.
+- APK compilado com chave original e assinatura v2/v3 verificada. Instalação física da 0.6.3 pendente.
+- David confirmou a instalação da 0.6.2 e localizou as figuras; entregue nova ampliação após autorização.
+
 ## 0.6.2 — 2026-09-23
 
 - 55 ilustrações 3D em fichas selecionadas: 25 iniciais e 30 adicionais após aprovação do estilo.
