@@ -33,3 +33,13 @@ O projeto completo possui script Python próprio, utilizando JDK 17, Android SDK
 Uma camada de interface organiza áreas e sublistas, busca ampliada, glossário e base fictícia. Os exemplos mantêm código completo e blocos didáticos; gráficos estáticos são recursos locais. O índice de pesquisa é reconstruído após importação ou restauração do conteúdo. Os identificadores e a origem local do armazenamento foram preservados para manter as preferências da versão anterior.
 
 A compilação exige os arquivos originais de assinatura e interrompe se estiverem ausentes. Motores Python/PostgreSQL usados nas verificações são ferramentas de desenvolvimento e não acompanham o aplicativo.
+
+## Evolução 0.7.9 — conteúdo e leitura guiada
+
+A coleção atual reúne 455 fichas em 35 categorias. Os arquivos `content.json` e `content.js` representam o mesmo conteúdo. Cada ficha mantém seu identificador e recebe a fase do assunto principal na taxonomia.
+
+A camada de leitura guiada organiza a apresentação sem executar o código dos exemplos. Um exemplo fica visível inicialmente; os demais e a preparação dos dados podem ser abertos pelo leitor. O código completo continua disponível para cópia. As explicações de termos são recursos locais.
+
+As 444 ilustrações de fichas, as 22 imagens de gráficos e os cinco indicadores F1–F5 são empacotados com o aplicativo. Os indicadores usam WebP com transparência. A WebView atende apenas recursos locais explicitamente permitidos, incluindo a camada de leitura e as imagens de fase.
+
+A atualização do conteúdo foi testada em simulação sobre a 0.7.8, preservando favoritos, tema, ordem personalizada e posições de leitura. Essa simulação não substitui a instalação no aparelho.

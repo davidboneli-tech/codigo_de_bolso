@@ -8,7 +8,7 @@
 
 Uma biblioteca de consulta pessoal para acompanhar os estudos de programação e análise de dados.
 
-**380 fichas · 28 categorias · Versão 0.6.4**
+**455 fichas · 35 categorias · Versão 0.7.9**
 
 </div>
 
@@ -40,7 +40,7 @@ A busca consulta o conteúdo disponível no aplicativo. Ela não é um chatbot e
 
 ## 🧠 O que posso consultar?
 
-A versão documentada reúne **380 fichas em 28 categorias**, agrupadas aqui por área:
+A versão documentada reúne **455 fichas em 35 categorias**, agrupadas aqui por área:
 
 | Área | Assuntos presentes |
 |---|---|
@@ -53,8 +53,14 @@ A versão documentada reúne **380 fichas em 28 categorias**, agrupadas aqui por
 | 📖 Consulta | Glossário com filtro próprio e base fictícia original/tratada |
 | 📗 Excel | Fórmulas, buscas, condições, textos, datas, estatística e Power tools |
 | 🛠️ Ferramentas | Git, GitHub e VS Code |
+| 📈 Business Intelligence | Power BI, DAX, Power Query/M e Tableau |
+| 🧭 Fundamentos e estatística | Granularidade, métricas, qualidade, amostragem e medidas descritivas |
 
-A coleção inclui 815 exemplos, código agrupado por tarefa, 22 imagens de gráficos e 175 ilustrações 3D para consulta offline. As ilustrações aparecem em fichas selecionadas, com legendas próprias; comandos nas explicações ficam em negrito. Os títulos de leitura usam lâmpada, lupa, alerta e seta em tamanho proporcional ao texto. As áreas possuem sublistas para manter a navegação compacta. Power BI permanece como possibilidade de expansão.
+A coleção inclui **926 exemplos**, **444 fichas com ilustrações 3D** e **11 fichas com gráficos nos exemplos**, cobrindo as 455 fichas com recursos visuais. São 22 imagens de gráficos, além de cinco indicadores de fase no mesmo padrão 3D. As imagens acompanham o APK para consulta offline.
+
+Cada ficha identifica a fase do assunto principal na taxonomia: **F1 — Fundamentos; F2 — Analista de Dados; F3 — Analista avançado; F4 — Cientista de Dados; F5 — Especialização**. Essa indicação orienta o estudo; não certifica domínio do tema.
+
+A leitura começa por uma explicação direta e um exemplo principal. Outros exemplos, sintaxe, preparação de dados e cuidados ficam disponíveis em seções que o leitor pode abrir. O código completo permanece copiável.
 
 ## 📖 Como ele entra na rotina
 
@@ -83,11 +89,13 @@ O aplicativo usa um processo de compilação próprio com JDK 17 e Android SDK 3
 
 ## ✅ Estado do projeto
 
-**Versão documentada: 0.6.4.** O manifesto define Android 8.0 como versão mínima. A compatibilidade precisa ser verificada no aparelho; não há declaração de testes em todos os modelos Android.
+**Versão documentada: 0.7.9, atualizada em 22/10/2026.** O manifesto define Android 8.0 como versão mínima. A compatibilidade precisa ser verificada no aparelho; não há declaração de testes em todos os modelos Android.
 
-A versão 0.6.4 acrescenta 100 ilustrações, totalizando 175 fichas ilustradas, e integra 15 ícones de áreas/programas e quatro ícones de leitura. Foram concluídas 1.873 verificações de interface em Chromium e verificada a assinatura v2/v3 do APK com a chave original. A migração da 0.6.3 preserva favoritos e preferências. Imagens otimizadas em WebP mantêm a consulta offline e a compatibilidade com coleções anteriores. A instalação da 0.6.4 no aparelho ainda precisa ser conferida.
+A revisão 0.7.9 partiu de relatos de explicações difíceis e repetidas. Foram lidos os resumos das 455 fichas, reescritos 118 e retiradas 315 frases repetidas entre exemplos. O rótulo “Ficha revisada” foi substituído por indicadores de fase, e a leitura passou a destacar um exemplo por vez.
 
-A revisão anterior 0.6.1 simplificou as explicações e reuniu linhas de uma mesma tarefa. Foram executados 8 exemplos novos e 1.109 verificações de interface; a lógica e as saídas dos outros 807 exemplos foram preservadas. O APK foi compilado e teve a assinatura verificada. David confirmou o funcionamento da 0.6.0 no aparelho; a instalação da 0.6.1 ainda precisa ser conferida. Veja [escopo e limites dos testes](docs/escopo_e_validacao.md).
+Foram executados **282 exemplos de Python e 41 de SQL**, comparando as saídas esperadas, além de **1.382 verificações de interface nas 455 fichas** e **41 verificações de leitura guiada**. O navegador decodificou 471 recursos locais sem requisições externas, usando a lista de recursos permitidos pelo Android. A simulação de atualização sobre a 0.7.8 preservou favoritos e preferências; o APK foi compilado com a chave original e teve assinatura v2/v3 verificada.
+
+Esses resultados não significam execução dos 926 exemplos nem garantia de clareza em todas as situações. Excel, Power BI, Tableau, MongoDB e MySQL não foram executados em seus programas nativos nesta rodada. A instalação da 0.7.9 no aparelho ainda precisa ser conferida. Veja [escopo e limites dos testes](docs/escopo_e_validacao.md) e [revisão didática 0.7.9](docs/revisao_0_7_9.md).
 
 ## 🤝 Concepção e desenvolvimento
 
@@ -101,6 +109,7 @@ O desenvolvimento contou com assistência de inteligência artificial na impleme
 |---|---|
 | [Arquitetura](docs/arquitetura.md) | Organização técnica e decisões de implementação |
 | [Escopo e validação](docs/escopo_e_validacao.md) | Estado documentado e limites das verificações |
+| [Revisão didática 0.7.9](docs/revisao_0_7_9.md) | Clareza, fases de estudo, mudanças e evidências |
 | [Padrão de atualizações](docs/padrao_atualizacoes.md) | Critérios para manter as próximas versões consistentes |
 | [Publicação](docs/publicacao.md) | Cuidados com imagens, dados e materiais de terceiros |
 | [Histórico](CHANGELOG.md) | Alterações na apresentação do portfólio |

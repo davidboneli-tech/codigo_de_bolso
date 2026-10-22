@@ -1,3 +1,42 @@
+# Versão 0.7.9 — escopo e validação
+
+Estado da entrega de 22/10/2026. Os registros anteriores aparecem abaixo como histórico.
+
+## Acervo e revisão
+
+- 455 fichas, 35 categorias e 926 exemplos.
+- 444 fichas com ilustrações próprias; as outras 11 têm gráficos nos exemplos. Há 22 imagens de gráficos no acervo.
+- Cinco indicadores F1–F5, conforme a fase do assunto principal na taxonomia.
+- Leitura dos 455 resumos, reescrita de 118 e retirada de 315 frases repetidas entre exemplos.
+- Apresentação com um exemplo principal e detalhes opcionais; preparação SQL recolhida, código completo copiável e ausência do rótulo “Ficha revisada”.
+
+## Evidências desta entrega
+
+| Verificação | Resultado e limite |
+|---|---|
+| Python | 282 exemplos executados e comparados às saídas esperadas; não corresponde a todos os exemplos Python do acervo |
+| SQL | 41 exemplos executados em PostgreSQL via PGlite/WASM e comparados às saídas esperadas; não testa um servidor PostgreSQL externo |
+| Estrutura dos exemplos | Os 926 códigos e resultados esperados foram preservados em relação à 0.7.8; as explicações e a apresentação foram revisadas |
+| Interface geral | 1.382 verificações em Chromium, percorrendo as 455 fichas e verificando fase, leitura inicial, recursos e funções existentes |
+| Leitura guiada | 41 verificações adicionais de abertura de detalhes, cópia e legenda de fase em fichas representativas, incluindo tela estreita |
+| Recursos offline | 471 ilustrações, gráficos e indicadores decodificados; nenhuma requisição externa. O teste usa a lista de recursos permitidos no código Android |
+| Atualização | Simulação sobre a 0.7.8 preservou favoritos, tema, ordem personalizada e posições de leitura |
+| APK | 0.7.9, versionCode 20, compilado; assinatura v2/v3 verificada e certificado comparado com o da versão anterior |
+
+## Limites
+
+A triagem das 455 fichas não é uma declaração de execução de todos os 926 exemplos, nem uma garantia absoluta de clareza ou ausência de erros. A leitura dos resumos, a auditoria estrutural, a execução de código e o uso no aparelho são verificações diferentes.
+
+Excel, Power BI, Tableau, MongoDB, MySQL e procedimentos de aplicativos não foram executados nos programas nativos nesta rodada. As outras amostras fora dos grupos executados preservam código e saídas da base anterior; isso não conta como nova execução.
+
+A instalação e o uso da 0.7.9 no celular ainda precisam de conferência. Chromium não equivale a Android WebView em um aparelho real. O aplicativo é uma ferramenta de consulta; não executa Python, SQL ou MongoDB internamente.
+
+Veja também a [revisão didática 0.7.9](revisao_0_7_9.md).
+
+---
+
+# Registros históricos
+
 # Revisão 0.6.4 — imagens e ícones
 
 A versão 0.6.4 acrescenta 100 ilustrações, totalizando 175 fichas ilustradas, e integra 15 ícones de áreas/programas e quatro ícones de leitura. Foram concluídas 1.873 verificações de interface em Chromium e verificada a assinatura v2/v3 do APK com a chave original. A migração da 0.6.3 preserva favoritos e preferências. Imagens otimizadas em WebP mantêm a consulta offline e a compatibilidade com coleções anteriores. A instalação da 0.6.4 no aparelho ainda precisa ser conferida.

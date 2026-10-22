@@ -1,5 +1,19 @@
 # Histórico de alterações
 
+## 0.7.9 — 2026-10-22
+
+- Atualizada a apresentação pública para o estado atual: 455 fichas, 35 categorias e 926 exemplos.
+- Documentadas 444 fichas com ilustrações e 11 com gráficos nos exemplos; cinco indicadores de fase F1–F5 no padrão 3D.
+- Incluídos Power BI/DAX, Power Query/M, Tableau, MySQL, fundamentos de dados e estatística aplicada entre os assuntos presentes.
+- Registrada a revisão didática: leitura dos 455 resumos, reescrita de 118 e retirada de 315 frases repetidas entre exemplos.
+- Leitura guiada com um exemplo principal; preparação, outros exemplos e detalhes disponíveis sob demanda. Removido o rótulo “Ficha revisada”.
+- Executados 282 exemplos Python e 41 SQL; concluídas 1.382 verificações de interface e 41 de leitura guiada.
+- Conferidos 471 recursos locais e atualização sobre a 0.7.8 com favoritos e preferências preservados.
+- APK 0.7.9 compilado com a chave original, versionCode 20 e assinatura v2/v3 verificada. Instalação física pendente.
+- Documentados o alcance e os limites da revisão. Mantida a política de portfólio público; código, APK e materiais reservados não foram incluídos.
+
+Esta entrada consolida o estado da entrega 0.7.9. Não atribui novas datas ou testes às versões intermediárias que não constavam deste histórico público.
+
 ## 0.6.4 — 2026-09-23
 
 - Acrescentadas 100 ilustrações no padrão 3D aprovado: total de 175 fichas ilustradas.
