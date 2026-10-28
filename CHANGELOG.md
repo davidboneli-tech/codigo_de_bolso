@@ -1,5 +1,23 @@
 # Histórico de alterações
 
+## 0.8.1 — entrega de 2026-10-22; portfólio atualizado em 2026-10-27
+
+- Documentado o acervo atual: 477 fichas, 35 categorias, 966 exemplos, 466 fichas ilustradas e 11 com gráficos.
+- Retirados os controles de copiar, exportar e compartilhar; códigos mantidos para leitura.
+- Reorganizadas 52 fichas com 87 exemplos SQL em pergunta, dados, código, resultado e interpretação.
+- Reescritos 15 resumos e complementados exemplos de NULLIF, EXISTS, NOT LIKE, LEAD, índices e exclusão.
+- Registrados 80 exemplos PostgreSQL executados, 1.608 verificações de interface e 53 de tabelas.
+- Documentados 493 recursos locais e atualização simulada sobre a 0.8.0; APK com assinatura original preservada.
+- Acrescentados ao README um ícone, três ilustrações e os cinco indicadores Fn usados no aplicativo, conforme autorização do usuário. Ajustada a lista de arquivos permitidos para essas amostras.
+- Mantidos o código completo, APK e materiais de referência fora do repositório público.
+
+## 0.8.0 — 2026-10-22
+
+- Acrescentadas 22 fichas e 22 ilustrações para completar tópicos SQL: total de 477 fichas e 959 exemplos.
+- Identificados os bancos dos exemplos, incluindo complementos específicos de SQL Server e Oracle.
+- Fases conforme o assunto principal da taxonomia; ilustrações anteriores preservadas.
+- Entrega consolidada neste histórico público em 27/10/2026, a partir dos registros reservados.
+
 ## 0.7.9 — 2026-10-22
 
 - Atualizada a apresentação pública para o estado atual: 455 fichas, 35 categorias e 926 exemplos.
@@ -72,3 +90,4 @@ Esta entrada consolida o estado da entrega 0.7.9. Não atribui novas datas ou te
 - Código completo e recursos do aplicativo mantidos fora do pacote público.
 
 Este histórico registra o portfólio; não reconstrói o histórico completo de desenvolvimento do aplicativo.
+

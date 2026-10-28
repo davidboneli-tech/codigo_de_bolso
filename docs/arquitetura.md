@@ -34,12 +34,14 @@ Uma camada de interface organiza áreas e sublistas, busca ampliada, glossário 
 
 A compilação exige os arquivos originais de assinatura e interrompe se estiverem ausentes. Motores Python/PostgreSQL usados nas verificações são ferramentas de desenvolvimento e não acompanham o aplicativo.
 
-## Evolução 0.7.9 — conteúdo e leitura guiada
+## Estado atual — 0.8.1
 
-A coleção atual reúne 455 fichas em 35 categorias. Os arquivos `content.json` e `content.js` representam o mesmo conteúdo. Cada ficha mantém seu identificador e recebe a fase do assunto principal na taxonomia.
+A coleção reúne 477 fichas em 35 categorias e 966 exemplos. `content.json` e `content.js` representam o mesmo conteúdo. Identificadores e fases do assunto principal preservam a continuidade do estudo.
 
-A camada de leitura guiada organiza a apresentação sem executar o código dos exemplos. Um exemplo fica visível inicialmente; os demais e a preparação dos dados podem ser abertos pelo leitor. O código completo continua disponível para cópia. As explicações de termos são recursos locais.
+As 52 fichas com exemplos SQL incluem dados de entrada, código de leitura, resultados e interpretação. A preparação técnica permanece no conteúdo reservado para manutenção e conferência. A interface apresenta 87 exemplos SQL sem exigir execução no celular.
 
-As 444 ilustrações de fichas, as 22 imagens de gráficos e os cinco indicadores F1–F5 são empacotados com o aplicativo. Os indicadores usam WebP com transparência. A WebView atende apenas recursos locais explicitamente permitidos, incluindo a camada de leitura e as imagens de fase.
+Os controles de cópia, exportação e compartilhamento foram retirados, inclusive da ponte nativa. Favoritos, preferências e posições continuam guardados localmente; a restauração de arquivos antigos permanece disponível.
 
-A atualização do conteúdo foi testada em simulação sobre a 0.7.8, preservando favoritos, tema, ordem personalizada e posições de leitura. Essa simulação não substitui a instalação no aparelho.
+Os recursos locais incluem 466 ilustrações de fichas, 22 imagens de gráficos e cinco indicadores de fase. A WebView atende somente arquivos explicitamente permitidos. Os exemplos de servidores SQL externos são identificados por banco; o app não contém um executor SQL.
+
+Os testes da entrega 0.8.1 simulam a atualização da coleção 0.8.0. Conferência em navegador e compilação não substituem a instalação física.

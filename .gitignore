@@ -1,4 +1,4 @@
-# Este repositório público aceita somente documentação revisada.
+# Portfólio público: documentação e somente as amostras visuais autorizadas.
 *
 !*/
 !README.md
@@ -6,4 +6,13 @@
 !DIREITOS.md
 !.gitignore
 !docs/**/*.md
-# Nenhuma regra libera código, executáveis ou credenciais.
+!docs/images/icone_glossario.webp
+!docs/images/exemplo_sql_select.webp
+!docs/images/exemplo_sql_where.webp
+!docs/images/exemplo_sql_text_slice.webp
+!docs/images/fase_f1.webp
+!docs/images/fase_f2.webp
+!docs/images/fase_f3.webp
+!docs/images/fase_f4.webp
+!docs/images/fase_f5.webp
+# Código completo, executáveis e credenciais continuam excluídos.

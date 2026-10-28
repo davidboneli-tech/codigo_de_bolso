@@ -1,3 +1,38 @@
+# Versão 0.8.1 — escopo e validação
+
+Entrega de 22/10/2026, com atualização deste portfólio em 27/10/2026.
+
+## Acervo e apresentação
+
+- 477 fichas, 35 categorias e 966 exemplos.
+- 466 fichas com ilustrações e 11 com gráficos nos exemplos; são 22 imagens de gráficos e cinco indicadores F1–F5.
+- 52 fichas com 87 exemplos SQL para leitura: pergunta, dados, código, resultado e interpretação.
+- 15 resumos reescritos. Códigos visíveis, com os controles de copiar, exportar e compartilhar retirados de todos os módulos.
+
+## Evidências da entrega
+
+| Verificação | Resultado e limite |
+|---|---|
+| PostgreSQL via PGlite/WASM | 80 exemplos executados, incluindo dois planos; não testa conexão com servidor externo |
+| SQL Server/Oracle | Sete exemplos com revisão documental; sem execução nos servidores nativos |
+| Interface | 1.608 verificações, abrangendo as 477 fichas e as ações removidas |
+| Tabelas apresentadas | 53 verificações adicionais, incluindo comparação nas 52 fichas SQL |
+| Recursos locais | 493 imagens, gráficos e indicadores decodificados, sem requisições externas |
+| Atualização | Simulação sobre a 0.8.0 preservando favoritos, tema, ordem e posições de leitura |
+| APK | 0.8.1, versionCode 22, compilado com assinatura original v2/v3 e conteúdo empacotado conferidos |
+
+As evidências foram recuperadas dos registros da entrega reservada. A atualização documental de 27/10/2026 não representa uma nova execução desses testes.
+
+## Limites
+
+Os registros não declaram execução de todos os 966 exemplos. Os demais módulos tiveram conferência de interface e preservação dos códigos, sem nova execução integral nesta rodada. A instalação física da 0.8.1 permanece pendente de conferência no aparelho.
+
+O app é um material de consulta e não executa Python, SQL ou MongoDB internamente. Veja [leitura no celular — 0.8.1](leitura_0_8_1.md).
+
+---
+
+# Histórico — entrega 0.7.9
+
 # Versão 0.7.9 — escopo e validação
 
 Estado da entrega de 22/10/2026. Os registros anteriores aparecem abaixo como histórico.
@@ -91,3 +126,4 @@ MongoDB e procedimentos de ferramentas foram revisados, mas não executados inte
 A revisão priorizou as apostilas e documentos SCTEC, a pasta **Aulas Tecnicas - Chat GPT** e o guia de referência BeautifulSoup fornecido por David. Referências técnicas: [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html), [MongoDB](https://www.mongodb.com/docs/manual/aggregation/), [Matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html) e [Seaborn](https://seaborn.pydata.org/tutorial.html).
 
 Power BI segue sem módulo próprio. O Guia Mestre reservado centraliza decisões; esta página documenta a entrega e seus limites. Código completo, APK e material de assinatura permanecem reservados.
+

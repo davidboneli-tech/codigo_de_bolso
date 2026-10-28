@@ -20,7 +20,7 @@ Usar português claro, nomes de arquivos em snake_case e links relativos. Docume
 ## Critérios didáticos e regressão
 
 - Usar o Guia Mestre reservado como referência central, evitando orientações concorrentes.
-- Separar código, explicação e saída; permitir cópia do trecho e do exemplo completo.
+- Separar código, explicação e saída, mantendo a leitura completa no celular.
 - Usar pequenos trechos da base fictícia e registrar decisões de limpeza.
 - Testar busca com linguagem natural, sinônimos, acentos, nomes de comandos e filtros.
 - Preservar assinatura, pacote, IDs e dados pessoais; não gerar nova chave automaticamente.
@@ -37,6 +37,16 @@ Não usar metas de palavras ou caracteres. A ficha int/float/str aprovada por Da
 - Começar por uma explicação direta e um exemplo principal. Manter aprofundamentos acessíveis, sem exigir que o leitor veja todos de uma vez.
 - Conferir se uma nota de bloco explica o próprio bloco, e não uma consulta de outro exemplo.
 - Distinguir exemplo duplicado de uma fórmula igual aplicada a dados diferentes.
-- Não desenhar uma segunda cópia do código completo abaixo dos mesmos blocos; manter a função de cópia.
+- Não desenhar uma segunda cópia do código abaixo dos mesmos blocos. A função de cópia foi retirada na 0.8.1.
 - Conferir os novos arquivos na lista de recursos locais permitidos pelo Android, além do teste visual no navegador.
 - Publicar contagens e resultados observados. Separar triagem editorial, execução de exemplos, teste de navegador, compilação e teste físico.
+
+
+## Critérios atuais — 0.8.1
+
+- Manter o código visível para leitura, com resultado e interpretação suficientes na própria ficha.
+- Não reintroduzir controles de copiar, exportar ou compartilhar sem uma solicitação do usuário.
+- Nos exemplos SQL, apresentar a pergunta e os dados usados; identificar o banco e diferenciar saída fixa de resultado variável.
+- Preservar fases e ilustrações ao revisar textos.
+- Ao atualizar o GitHub, conferir README, About, histórico e documentação afetada contra os registros da entrega.
+- Imagens públicas devem estar na lista explícita de amostras, ter texto alternativo e representar recursos efetivamente usados no app.

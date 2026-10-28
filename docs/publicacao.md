@@ -1,19 +1,33 @@
 # Política de publicação
 
-## Permitido neste portfólio
+## Escopo público
 
-Documentação revisada, descrições de arquitetura e decisões de produto. Imagens futuras devem conter dados fictícios e ter sua origem e permissão de publicação verificadas.
+Este portfólio reúne documentação revisada, descrições da arquitetura, decisões de produto e uma seleção de imagens usadas no aplicativo. Em 27/10/2026, o usuário autorizou o uso de ícones e exemplos de imagens no README.
+
+## Amostras visuais selecionadas
+
+| Arquivo em docs/images/ | Uso no aplicativo |
+|---|---|
+| icone_glossario.webp | Ícone do glossário |
+| exemplo_sql_select.webp | Ilustração da ficha SELECT |
+| exemplo_sql_where.webp | Ilustração da ficha WHERE |
+| exemplo_sql_text_slice.webp | Ilustração da ficha SUBSTRING |
+| fase_f1.webp a fase_f5.webp | Indicadores de fase do assunto principal |
+
+Os nove arquivos foram copiados dos recursos locais da entrega 0.8.1. São imagens produzidas com assistência de IA durante o desenvolvimento do projeto, usadas aqui como amostras do seu estilo visual. Não apresentam dados pessoais nem reproduzem páginas dos materiais de estudo.
+
+As amostras não constituem uma licença adicional sobre o aplicativo ou sobre a coleção completa. Aplicam-se as condições de [DIREITOS.md](../DIREITOS.md).
 
 ## Material reservado
 
-Código completo, APKs, chaves de assinatura, senhas, backups, dados pessoais, fotos particulares, livros, apostilas e arquivos de referência não fazem parte deste pacote público.
+Código completo, APKs, chaves de assinatura, senhas, backups, dados pessoais, fotos particulares, livros, apostilas e arquivos de referência permanecem fora deste repositório público.
 
-O .gitignore usa uma lista de permissões limitada a Markdown. Isso reduz inclusões acidentais, mas não protege segredos escritos nos documentos nem remove arquivos já rastreados. Revisar sempre o diff antes do commit.
+O .gitignore usa uma lista de permissões para Markdown e para os nove arquivos visuais escolhidos. Revisar os arquivos e o diff continua necessário: a regra não remove arquivos já rastreados nem protege informações inseridas nos documentos.
 
-## Imagens e terceiros
+## Materiais de terceiros
 
-Nenhuma imagem, logotipo ou fonte do aplicativo foi copiada para este pacote. Para incluir capturas de tela, conferir também os direitos sobre os elementos que aparecem nelas. Avisos de crédito não substituem permissões necessárias.
+Marcas, livros, fontes e outros materiais de terceiros conservam seus próprios direitos e condições. Citar uma referência não concede permissão para redistribuí-la. Os materiais de estudo utilizados nas revisões não são publicados neste portfólio.
 
-## Futuro repositório privado
+## Código completo
 
-O código completo deve receber repositório separado, com acesso restrito. Ele ainda não foi criado nesta etapa. Guardar chaves e senhas fora do Git, inclusive do Git privado.
+Uma eventual publicação do código completo deve usar repositório separado e acesso restrito. Chaves e senhas devem ficar fora do Git, inclusive de repositórios privados.
